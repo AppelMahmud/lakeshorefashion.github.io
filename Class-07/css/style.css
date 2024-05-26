@@ -1,0 +1,167 @@
+*{
+
+	padding: 0;
+	margin: 0;
+
+}
+ul,ol{
+	list-style: none;
+
+}
+a{
+	text-decoration: none;
+
+}
+body{
+
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+/* navigation part css start */
+.appel{
+	clear: both;
+}
+nav{
+	background-color: black;
+	line-height: none;
+
+}
+
+.logo{
+	width: 30%;
+	float: left;
+
+}
+
+
+
+.menu{
+	width: 70%;
+	float: left;
+}
+
+.menu ul{
+	float: right;
+	margin-top: 10px;
+
+}
+.menu ul li{
+	float: left;
+	padding: 10px 15px;
+
+}
+
+.menu ul li a{
+color: white;
+font-size: 20px;
+
+}
+/* navigation part css end */
+
+/*banner part css start*/
+.banner{
+
+	background: url(../image/banner1.jpg);
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	object-fit: contain;
+
+
+}
+.banner_overlay{
+
+	padding: 150px 0;
+	background-color: rgba(0,0,0,.1)
+}
+
+.banner_content h1{
+	color: blue;
+	font-size: 100px;
+	text-transform: uppercase;
+	font-family: monospace;
+	padding-bottom: 5px;
+
+
+
+}
+
+.banner_content h4{
+	color: yellow;
+	font-size: 60px;
+	text-transform: capitalize;
+	font-family: monospace;
+	padding-bottom: 20px;
+
+
+
+}
+
+.banner_content a{
+	padding: 10px 30px;
+	background-color: black;
+	color: blue;
+	border-radius: 20px;
+	text-transform: uppercase;
+
+}
+
+
+/*banner part css end*/
+/*about part css start*/
+.about_head h4{
+	margin: 40px 0;
+	text-align: center;
+	background-color: teal;
+	color: black;
+	text-transform: uppercase;
+	padding: 10px;
+	font-family: monospace;
+	border-radius: 25px;
+	font-size: 25px;
+}
+
+.about_photo{
+	width: 50%;
+	float: left;
+}
+
+.about_content{
+	width: 50%;
+	float: right;
+
+}
+.about_photo img{
+	width: 100%;
+	
+
+
+
+}
+.about_content h4{
+
+	text-align: center;
+	font-size: 30px;
+	mask-type: 20px;
+	margin-top: 5px;
+	font-family: monospace;
+	margin-bottom: 10px;
+}
+.about_content p{
+	padding-left: 20px;
+	text-align: justify;
+	line-height:24px; 
+}
+
+/*about part css end*/
+
+
+
+
+
+
